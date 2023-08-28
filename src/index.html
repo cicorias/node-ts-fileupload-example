@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Form</title>
+</head>
+<body>
+
+    <form action="/submit" method="post" enctype="multipart/form-data">
+        <!-- Dropdown for Product -->
+        <label for="product">Select Product:</label>
+        <select id="product" name="product">
+            <option value="Product1">Product 1</option>
+            <option value="Product2">Product 2</option>
+            <option value="Product3">Product 3</option>
+            <option value="Product4">Product 4</option>
+        </select>
+        <br>
+
+        <!-- Date Field -->
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date">
+        <br>
+
+        <!-- Foobar Field -->
+        <label for="foobar">Foobar:</label>
+        <input type="text" id="foobar" name="foobar">
+        <br>
+
+        <!-- File Upload -->
+        <label for="fileUpload">Upload a File:</label>
+        <input type="file" id="fileUpload" name="fileUpload">
+        <br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>
+
